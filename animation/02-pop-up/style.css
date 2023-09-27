@@ -61,3 +61,24 @@ button {
   opacity: 30%;
 }
 
+
+/* Code Answers Go Here: */
+
+.popup-modal.show {
+  animation: slidedown 0.3s ease-in-out;
+}
+
+@keyframes slidedown {
+
+  from {
+    /* margin-bottom: 100%; */
+    opacity: 0%;
+    transform: translate(-50%, -100%);
+  }
+
+  to {
+    /* margin-bottom: 0%; */
+    opacity: 100%;
+  }
+  
+}
