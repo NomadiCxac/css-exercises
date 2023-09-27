@@ -40,8 +40,9 @@ button {
   opacity: 0%;
   text-align: center;
 }
+
 .popup-modal p {
-  margin-bottom: 24px
+  margin-bottom: 24px;
 }
 
 .backdrop {
